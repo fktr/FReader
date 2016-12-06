@@ -1,0 +1,36 @@
+{% extends 'template.html' %}
+{% load staticfiles %}
+{% block title %}
+    操作结果
+{% endblock %}
+{% block mycss %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/main.css' %}">
+{% endblock %}
+{% block myjs %}
+    <script type="text/javascript">
+        window.onload = function () {
+            var countdown = document.getElementById('countdown');
+            function tick() {
+                countdown.innerHTML = parseInt(countdown.innerHTML) - 1;
+                if(countdown.innerHTML == 0){
+                    window.location.href="{{ url }}";
+                }
+            }
+            setInterval(tick, 1000);
+        }
+    </script>
+{% endblock %}
+{% block content %}
+<div id="container">
+        <div id="top"></div>
+        <div id="mainbox">
+            <div style="margin: 200px; text-align: center;">
+                <span style="padding-right: 3px;">{{ message }}</span>
+                <span id="countdown">3</span>
+                <span>秒后自动跳转</span>
+                <br/><br/>
+                <a href="{{ url }}">点此直接跳转</a>
+            </div>
+        </div>
+	</div>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends 'template.html' %}
+{% load staticfiles %}
+{% block title %}
+    登录账号
+{% endblock %}
+{% block mycss %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/auth.css' %}">
+{% endblock %}
+{% block myjs %}
+{% endblock %}
+{% block content %}
+	<div id="container">
+		<div id="top"></div>
+        <div class="panel panel-default" id="messagebox">
+            <div class="panel-heading" style="text-align: center;font-weight: bold;">登录您的Freader账号</div>
+            <form action="" method="post" role="form" style="padding: 10px;">
+                {% csrf_token %}
+                <div class="form-group" style="margin-top: 20px;">
+                    {{ form.username.errors }}
+                    <label for="{{ form.username.id_for_label }}">用户名:</label>
+                    {{ form.username }}
+                </div>
+                <div class="form-group" style="margin-top: 20px;">
+                    {{ form.password.errors }}
+                    <label for="{{ form.password.id_for_label }}">密码:</label>
+                    {{ form.password }}
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block" style="margin-top: 50px;">登录</button>
+            </form>
+            <div class="panel-footer" id="checkoutbox">
+                <a href="{% url 'Main:register' %}">注册新账号</a>
+            </div>
+        </div>
+	</div>
+{% endblock %}

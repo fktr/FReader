@@ -1,0 +1,47 @@
+{% extends 'template.html' %}
+{% load staticfiles %}
+{% block title %}
+    今日更新
+{% endblock %}
+{% block mycss %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/main.css' %}">
+{% endblock %}
+{% block myjs %}
+{% endblock %}
+{% block content %}
+    <div id="container">
+		<div id="top">
+            <span class="dropdown">
+                    <a id="username" href="{% url 'Main:home' %}" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        {{ username }}
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="username">
+                        <li role="presentation"><a role="menuitem" href="{% url 'Main:chgpwd' %}">修改密码</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" href="{% url 'Main:logout' %}">退出登录</a></li>
+                    </ul>
+            </span>
+            <span>，欢迎您！</span>
+        </div>
+
+        <div id="mainbox">
+            <div style="height: 50px;"><a href="{% url 'Main:home' %}"><button type="button" class="btn btn-info" style="left: 5%; position: absolute; background: #6A8194;">
+                <span style="font-weight: 900;padding-right: 5px;"><</span>
+                <span>返回我的订阅</span>
+            </button></a></div>
+            <div style="font-size: 30px;font-weight: bold; margin: 20px; text-align: center;">来自<a href="{{ channel.link }}">{{ channel.title }}</a>的更新</div>
+            <div style="width: 70%; margin: 0px auto;">
+                <table class="table table-hover">
+                    <tbody>
+                    {% for item in items %}
+                        <tr><td>
+                            <a href="{{ item.link }}">{{ item.title }}</a><span>&nbsp;&nbsp;发布时间：{{ item.pubdate }}</span><br/>
+                            <span>{{ item.description }}</span>
+                        </td></tr>
+                    {% endfor %}
+                </tbody>
+            </table></div>
+
+        </div>
+	</div>
+{% endblock %}

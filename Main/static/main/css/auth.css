@@ -1,0 +1,34 @@
+html {overflow-y:scroll;}
+body {margin:0; padding:0; font-family: 'Microsoft Yahei','SimSun';}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+a{text-decoration: none;}
+
+#container{
+	background: #EAECEE;
+	padding-bottom: 30px;
+	height: 700px;
+}
+
+#top{
+	background: #6A8194 url('../img/logo.png') no-repeat 30px 0px;
+	height: 50px;
+}
+
+#messagebox{
+	width: 400px;
+	height: 430px;
+	margin: 70px auto;
+	position: relative;
+}
+
+#checkoutbox{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+}

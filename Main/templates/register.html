@@ -1,0 +1,45 @@
+{% extends 'template.html' %}
+{% load staticfiles %}
+{% block title %}
+    注册账号
+{% endblock %}
+{% block mycss %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/auth.css' %}">
+{% endblock %}
+{% block myjs %}
+{% endblock %}
+{% block content %}
+	<div id="container">
+		<div id="top"></div>
+        <div class="panel panel-default" id="messagebox">
+            <div class="panel-heading" style="text-align: center;font-weight: bold;">注册您的Freader账号</div>
+            <form action="" method="post" role="form" style="padding: 10px;">
+                {% csrf_token %}
+                <div class="form-group">
+                    {{ form.username.errors }}
+                    <label for="{{ form.username.id_for_label }}">用户名:</label>
+                    {{ form.username }}
+                </div>
+                <div class="form-group">
+                    {{ form.email.errors }}
+                    <label for="{{ form.email.id_for_label }}">邮箱:</label>
+                    {{ form.email }}
+                </div>
+                <div class="form-group">
+                    {{ form.password.errors }}
+                    <label for="{{ form.password.id_for_label }}">密码:</label>
+                    {{ form.password }}
+                </div>
+                <div class="form-group">
+                    {{ form.password_confirm.errors }}
+                    <label for="{{ form.password_confirm.id_for_label }}">确认密码:</label>
+                    {{ form.password_confirm }}
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">注册</button>
+            </form>
+            <div class="panel-footer" id="checkoutbox">
+                <a href="{% url 'Main:login' %}">返回登录</a>
+            </div>
+        </div>
+	</div>
+{% endblock %}

@@ -1,0 +1,79 @@
+{% extends 'template.html' %}
+{% load staticfiles %}
+{% block title %}
+    管理订阅
+{% endblock %}
+{% block mycss %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/main.css' %}">
+{% endblock %}
+{% block myjs %}
+{% endblock %}
+{% block content %}
+<div id="container">
+		<div id="top">
+            <span class="dropdown">
+                    <a id="username" href="{% url 'Main:home' %}" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        {{ username }}
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="username">
+                        <li role="presentation"><a role="menuitem" href="{% url 'Main:chgpwd' %}">修改密码</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" href="{% url 'Main:logout' %}">退出登录</a></li>
+                    </ul>
+            </span>
+            <span>，欢迎您！</span>
+        </div>
+
+        <div id="mainbox">
+            <div style="font-size: 30px;font-weight: bold; margin: 20px; text-align: center;">我的<img src="{% static 'main/img/logo_blue.png' %}" alt="Freader">订阅</div>
+            <div style="height: 50px;">
+                <button id="addbutton" type="button" class="btn btn-info" data-toggle="modal" data-target="#addbox" style="right: 10%; position: absolute; background: #6A8194;">
+                    <span style="font-weight: 900;padding-right: 5px;">+</span>
+                    <span>添加订阅</span>
+                </button>
+                <div class="modal fade" id="addbox" tabindex="-1"><div class="modal-dialog"><div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title">添加订阅</h4>
+                    </div>
+                    <form action="{% url 'Main:addchnl' %}" method="post">
+                        {% csrf_token %}
+                        <div class="modal-body">
+                            {{ form.channel.error }}
+                            {{ form.channel }}
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">添加</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        </div>
+                    </form>
+                </div></div></div>
+            </div>
+           <div>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th><div style="width:150px;">网站名称</div></th>
+                            <th><div style="width:400px;">网站简介</div></th>
+                            <th><div style="width:150px;">创建时间</div></th>
+                            <th colspan="3"><div style="width:200px;">操作</div></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                    {% for channel in channel_list %}
+                        <tr>
+                            <td><div class="tableunit" style="width:150px;">{{ channel.title }}</div></td>
+                            <td><div class="tableunit" style="width:400px;">{{ channel.description }}</div></td>
+                            <td><div class="tableunit" style="width:150px;">{{ channel.created_time|date:"Y /m /d" }}</div></td>
+                            <td style="padding-right:0px;padding-left:0px;"><a href="{% url 'Main:chnlupdt' channel.pk %}"><button class="btn btn-sm btn-default">查看更新</button></a></td>
+                            <td style="padding-right:0px;padding-left:0px;"><a href="{{ channel.link }}"><button class="btn btn-sm btn-default">查看原网址</button></a></td>
+                            <td style="padding-right:0px;padding-left:0px;"><a href="{% url 'Main:delchnl' channel.pk %}"><button class="btn btn-sm btn-default">删除订阅</button></a></td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+           </div>
+        </div>
+	</div>
+{% endblock %}

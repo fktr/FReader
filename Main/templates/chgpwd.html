@@ -1,0 +1,42 @@
+{% extends 'template.html' %}
+{% load staticfiles %}
+{% block title %}
+    修改密码
+{% endblock %}
+{% block mycss %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/auth.css' %}">
+{% endblock %}
+{% block myjs %}
+{% endblock %}
+{% block content %}
+    <div id="container">
+		<div id="top"></div>
+        <div class="panel panel-default" id="messagebox">
+            <div class="panel-heading" style="text-align: center;font-weight: bold;">修改您的Freader密码</div>
+            <form action="" method="post" role="form" style="padding: 10px;">
+                {% csrf_token %}
+                <div class="form-group">
+                    {{ form.old_password.errors }}
+                    <label for="{{ form.old_password.id_for_label }}">原密码:</label>
+                    {{ form.old_password }}
+                </div>
+                <div class="form-group">
+                    {{ form.new_password.errors }}
+                    <label for="{{ form.new_password.id_for_label }}">新密码:</label>
+                    {{ form.new_password }}
+                </div>
+                <div class="form-group">
+                    {{ form.password_confirm.errors }}
+                    <label for="{{ form.password_confirm.id_for_label }}">确认新密码:</label>
+                    {{ form.password_confirm }}
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">确认修改</button>
+            </form>
+            <div class="panel-footer" id="checkoutbox">
+                <a href="{% url 'Main:login' %}">返回登录</a>
+                <span style="padding: 10px; color: #2a6496">|</span>
+                <a href="{% url 'Main:register' %}">注册帐号</a>
+            </div>
+        </div>
+	</div>
+{% endblock %}
