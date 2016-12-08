@@ -65,7 +65,7 @@
                         <tr>
                             <td><div class="tableunit" style="width:150px;">{{ channel.title }}</div></td>
                             <td><div class="tableunit" style="width:400px;">{{ channel.description }}</div></td>
-                            <td><div class="tableunit" style="width:150px;">{{ channel.created_time|date:"Y /m /d" }}</div></td>
+                            <td><div class="tableunit" style="width:150px;">{{ channel.created_time|date:"Y/m/d" }}</div></td>
                             <td style="padding-right:0px;padding-left:0px;"><a href="{% url 'Main:chnlupdt' channel.pk %}"><button class="btn btn-sm btn-default">查看更新</button></a></td>
                             <td style="padding-right:0px;padding-left:0px;"><a href="{{ channel.link }}"><button class="btn btn-sm btn-default">查看原网址</button></a></td>
                             <td style="padding-right:0px;padding-left:0px;"><a href="{% url 'Main:delchnl' channel.pk %}"><button class="btn btn-sm btn-default">删除订阅</button></a></td>

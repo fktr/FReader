@@ -35,7 +35,7 @@
                     <tbody>
                     {% for item in items %}
                         <tr><td>
-                            <a href="{{ item.link }}">{{ item.title }}</a><span>&nbsp;&nbsp;发布时间：{{ item.pubdate }}</span><br/>
+                            <a href="{{ item.link }}">{{ item.title }}</a><span>&nbsp;&nbsp;发布时间：{{ item.pubdate|date:"Y/m/d  H:i:s" }}</span><br/>
                             <span>{{ item.description }}</span>
                         </td></tr>
                     {% endfor %}
