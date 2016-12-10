@@ -3,7 +3,7 @@ import requests
 from django.core.management import BaseCommand
 
 from Main.models import Channel, Item
-from Main.util.easy import pubdate_to_datetime
+from Main.util.easy import pubdate_to_datetime, get_htmlcont, beautify_data
 
 
 class Command(BaseCommand):
@@ -11,7 +11,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         channels = Channel.objects.all().distinct()
         for channel in channels:
-            content = requests.get(channel.link).text
+            content=get_htmlcont(channel.link)
             parsed_cont = feedparser.parse(content)
             channel.title = parsed_cont.feed.get('title', '暂无标题')
             channel.description = parsed_cont.feed.get('description', '暂无描述')
@@ -26,6 +26,7 @@ class Command(BaseCommand):
                     continue
                 item_title = entry.get('title', '暂无标题')
                 item_description = entry.get('description', '暂无描述')
+                item_description=beautify_data(item_description)
                 is_new=True
                 item = Item(title=item_title, description=item_description, link=item_link, pubdate=item_pubdate,
                             channel=channel,is_new=is_new)

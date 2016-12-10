@@ -10,7 +10,7 @@ from django.core.mail import EmailMultiAlternatives
 from django.dispatch import receiver
 from django.db.models.signals import post_save
 
-from Main.util.easy import pubdate_to_datetime
+from Main.util.easy import pubdate_to_datetime, get_htmlcont, beautify_data, avoid_empty
 from .forms import LoginForm,RegisterForm,ChgPwdForm,ChnlForm
 from .signature import token_confirm,settings
 from .models import Channel,Item,Account
@@ -142,7 +142,7 @@ def addchnl_view(request):
             channel='http://'+channel
         if len(Channel.objects.filter(link=channel))==0:
             try:
-                content = requests.get(channel).text
+                content = get_htmlcont(channel)
                 parsed_content = feedparser.parse(content)
             except:
                 msg = '您输入的订阅源无效,请重新输入'
@@ -150,14 +150,15 @@ def addchnl_view(request):
                 data = {'message': msg, 'url': url}
                 return render(request,'message.html',data)
             chnl_title = parsed_content.feed.get('title', '暂无标题')
-            chnl_description = parsed_content.feed.get('description', '暂无描述')
+            chnl_description = avoid_empty(parsed_content.feed.get('description', '暂无描述'))
             channel=Channel(title=chnl_title,link=channel,description=chnl_description)
             channel.save()
             user.account.channel.add(channel)
             for entry in parsed_content.entries:
                 item_title = entry.get('title', '暂无标题')
                 item_link = entry.get('link', '暂无链接')
-                item_description = entry.get('description', '暂无描述')
+                item_description = avoid_empty(entry.get('description', '暂无描述'))
+                item_description=beautify_data(item_description)
                 item_pubdate = entry.get('published', '暂无发布日期')
                 item_pubdate=pubdate_to_datetime(item_pubdate)
                 item = Item(title=item_title, link=item_link, description=item_description, pubdate=item_pubdate, channel=channel)

@@ -1,185 +1,122 @@
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-08 12:50:30) while time zone support is active.
+System check identified some issues:
+
+WARNINGS:
+Main.Item.pubdate: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-10 17:34:13) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-07 23:50:45) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-10 16:38:21) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 17:37:07) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-10 16:03:58) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-05 22:51:41) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-10 15:50:50) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-04 22:16:19) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-10 13:33:11) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2015-06-23 05:20:27) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-10 12:47:05) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2015-05-14 07:58:27) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-10 11:21:36) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2015-04-09 04:30:51) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-10 10:49:45) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2015-02-02 04:25:41) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 23:42:47) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2015-01-30 04:18:59) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 18:14:12) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-10-18 15:32:59) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 17:54:36) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-10-02 05:08:47) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 17:50:59) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-09-03 20:21:23) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 17:31:19) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-09-02 14:00:51) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 17:28:30) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-08-24 01:22:05) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 17:09:49) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-06-21 15:02:30) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 17:07:09) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-05-02 14:52:06) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 17:04:40) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-04-30 03:38:17) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 17:00:21) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-04-27 09:09:35) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 16:57:55) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-04-21 13:40:02) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 16:57:07) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-08 04:55:29) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 16:54:14) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 15:15:23) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 16:54:10) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 04:13:00) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 16:49:30) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-05 05:41:40) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 16:47:29) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-05 02:07:30) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 16:47:24) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-04 05:05:35) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 16:45:57) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-03 05:52:19) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 16:45:28) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-02 16:55:09) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 16:39:32) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-02 09:52:26) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 16:33:39) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-02 06:44:13) while time zone support is active.
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-09 16:21:28) while time zone support is active.
   RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-07 17:02:55) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-07 07:25:40) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 15:36:00) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-05 15:43:51) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-04 14:55:02) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-04 14:30:43) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-03 11:47:19) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-02 16:17:49) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-01 12:55:44) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-01 12:39:54) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-08 00:50:44) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-08 00:46:50) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-07 14:04:24) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-07 13:56:21) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-07 13:53:42) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 02:19:19) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 02:14:58) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 02:12:03) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-05 00:07:26) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-04 23:58:14) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-11-23 09:32:21) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-11-21 01:39:40) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-10-14 07:39:45) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-08-05 01:17:48) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-08-05 01:17:19) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-08-05 01:16:30) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-08-05 01:14:12) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-08-05 01:13:24) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-08-05 01:12:09) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-08-05 01:11:05) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-08 12:50:00) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-08 11:37:00) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-08 06:33:00) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-07 19:06:00) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-07 17:40:00) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-07 11:17:00) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-07 09:27:00) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-07 07:11:28) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 19:52:00) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 17:10:34) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-07 07:11:21) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 15:32:16) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 15:17:08) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 15:10:23) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 15:01:02) while time zone support is active.
-  RuntimeWarning)
-/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1430: RuntimeWarning: DateTimeField Item.pubdate received a naive datetime (2016-12-06 14:50:32) while time zone support is active.
-  RuntimeWarning)
-Crawling Channel 月光博客
-Find Item 苹果回应iPhone爆炸自燃：受过外部物理损坏
-Find Item 苹果官方2016年度精选出炉
+Crawling Channel 哈工大综合信息服务网置顶信息
+Find Item Nevada Las Vegas 大学朱强教授讲学通知
+Find Item 【社区建设】A04公寓社区委员会成功举行防火安全宣传活动
+Find Item 【放飞梦想&#8226;激扬青春】化工与化学学院2015级支部大舞台成功举办
+Find Item “助力金秀・圆梦中国”项目推进座谈会顺利举行
+Find Item 学工办集体学习习总书记在全国高校思想政治工作会议上的讲话
+Find Item 航天学院学工办学习全国高校思想政治工作会议精神
 Crawling Channel 南都周刊
-Crawling Channel 每日鲜果精选
-Crawling Channel 战隼的学习探索
-Crawling Channel Matrix67: The Aha Moments
-Crawling Channel PanSci 泛科學
-Find Item J. K. 羅琳隱姓埋名寫新作，電腦30分鐘破解她的創作指紋—《暢銷書密碼》
-Find Item 書到底會不會暢銷？靠電腦來「占卜」一下—《暢銷書密碼》
-Crawling Channel 科学公园
-Find Item 2016初秋滇东北蝴蝶探索
-Crawling Channel Nhzy资讯
-Find Item 12星座《2016年圣诞节的桃花运》排行榜出炉啦~
-Find Item 已经厌烦！男性会觉得女性“虽然是个好对象但很烦人”的6大特征
-Find Item 为了治愈患者 南非牧师狠心狂喷杀虫剂
-Find Item 人类失去的身体组织能再生吗？
-Find Item “为他人着想”会更有利于找到方法？
-Crawling Channel 暂无标题
-Crawling Channel 互联网的那点事
-Crawling Channel 只为商业新变量 | 极客公园
-Find Item 星巴克支持微信支付，最担心的人是……
-Find Item 这届 CES，极客公园准备「玩票大的」
-Find Item 富士康筹划美国建厂或与特朗普有关，科学家研究出弹跳惊人的「夜猴」机器人 | 极客早知道 2016 年 12 月 8 日
-Find Item 从月球到火星，登月者奥尔德林的 47 年
-Find Item 苹果年终盘点，今年最值得下的 10 个 App 都在这儿了
-Crawling Channel F.H.J's Blog
-月光博客 haha
-PanSci 泛科學 haha
-科学公园 haha
-Nhzy资讯 haha
-只为商业新变量 | 极客公园 haha
-Send Email To haha
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/sqlite3/base.py", line 337, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: Main_item.pubdate
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fu/Code/PycharmProjects/UglyToy/manage.py", line 22, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/management/__init__.py", line 367, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/management/__init__.py", line 359, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/management/base.py", line 294, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/management/base.py", line 345, in execute
+    output = self.handle(*args, **options)
+  File "/home/fu/Code/PycharmProjects/UglyToy/Main/management/commands/crawlperday.py", line 33, in handle
+    item.save()
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 796, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 824, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 908, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 947, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 1045, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/sql/compiler.py", line 1054, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/backends/sqlite3/base.py", line 337, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: Main_item.pubdate

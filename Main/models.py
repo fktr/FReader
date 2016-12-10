@@ -2,6 +2,9 @@ from django.db import models
 from django.contrib.auth.models import User
 
 # Create your models here.
+from django.utils import timezone
+
+
 class Channel(models.Model):
     title=models.CharField('标题',max_length=32)
     link=models.CharField('订阅源',max_length=64)
@@ -18,7 +21,7 @@ class Channel(models.Model):
 class Item(models.Model):
     title=models.CharField('标题',max_length=32)
     link=models.CharField('链接',max_length=64)
-    pubdate=models.DateTimeField('发布时间',null=True)
+    pubdate=models.DateTimeField('发布时间',default=timezone.now())
     description=models.CharField('描述',max_length=128)
     channel=models.ForeignKey(Channel,verbose_name='所属源')
     is_new=models.BooleanField('是否是最新',default=False)
