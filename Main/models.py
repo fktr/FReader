@@ -13,7 +13,10 @@ class Channel(models.Model):
     has_update=models.BooleanField('是否有更新',default=False)
 
     def __str__(self):
-        return self.title
+        if self.title:
+            return self.title
+        else:
+            return self.link
 
     class Meta:
         ordering=['-created_time']
@@ -21,13 +24,16 @@ class Channel(models.Model):
 class Item(models.Model):
     title=models.CharField('标题',max_length=32)
     link=models.CharField('链接',max_length=64)
-    pubdate=models.DateTimeField('发布时间',default=timezone.now())
+    pubdate=models.DateTimeField('发布时间',null=True)
     description=models.CharField('描述',max_length=128)
     channel=models.ForeignKey(Channel,verbose_name='所属源')
     is_new=models.BooleanField('是否是最新',default=False)
 
     def __str__(self):
-        return self.title
+        if self.title:
+            return self.title
+        else:
+            return self.link
 
     class Meta:
         ordering=['-pubdate']

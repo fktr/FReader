@@ -16,14 +16,6 @@ def pubdate_to_datetime(pubdate):
     except:
         return None
 
-def get_htmlcont(url):
-    headers={'User-Agent':'user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36'}
-    res=requests.get(url,headers=headers)
-    coding_pattern=re.compile(r'encoding=(?P<coding>[\w-]*)?>')
-    html_coding=re.search(coding_pattern,res.text)
-    res.encoding=html_coding
-    return res.text
-
 def beautify_data(data):
     tag_pattern=re.compile(r'(<.*?>)|(&.*?;)')
     data=re.sub(tag_pattern,'',data)
