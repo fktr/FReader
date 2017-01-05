@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecb1f20d-65ef-40e0-87a2-199dd0b78072" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Main/util/tmp.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Main/util/tmp.sh" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/improvement/crawling.py" afterPath="$PROJECT_DIR$/Main/improvement/crawling.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/management/commands/addchannel.py" afterPath="$PROJECT_DIR$/Main/management/commands/addchannel.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/management/commands/gocrawl.py" afterPath="$PROJECT_DIR$/Main/management/commands/gocrawl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangocron.log" afterPath="$PROJECT_DIR$/djangocron.log" />
     </list>
     <ignored path="FReader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,33 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dead_lock.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/improvement/dead_lock.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="gocrawl.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/management/commands/gocrawl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="master.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/improvement/master.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="117">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -76,26 +50,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slave0.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/improvement/slave0.py">
+      <file leaf-file-name="distributed.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/distributed.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-4758">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slave1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/improvement/slave1.py">
+      <file leaf-file-name="async_single_th_proc_pool.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/async_single_th_proc_pool.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1117">
-              <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="455">
+              <caret line="157" column="45" selection-start-line="157" selection-start-column="45" selection-end-line="157" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="th_pool_proc_pool.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/th_pool_proc_pool.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3653">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crawling.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/improvement/crawling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1638">
+              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,16 +139,19 @@
         <option value="$PROJECT_DIR$/Main/improvement/threadpool.py" />
         <option value="$PROJECT_DIR$/Main/management/commands/addchannel.py" />
         <option value="$PROJECT_DIR$/Main/util/tmp2.py" />
-        <option value="$PROJECT_DIR$/Main/improvement/crawling.py" />
         <option value="$PROJECT_DIR$/Main/util/fuck.py" />
         <option value="$PROJECT_DIR$/Main/improvement/trybetter.py" />
         <option value="$PROJECT_DIR$/Main/improvement/dead_lock.py" />
         <option value="$PROJECT_DIR$/Main/improvement/slave.py" />
-        <option value="$PROJECT_DIR$/Main/improvement/slave0.py" />
-        <option value="$PROJECT_DIR$/Main/improvement/slave1.py" />
         <option value="$PROJECT_DIR$/Main/improvement/master.py" />
         <option value="$PROJECT_DIR$/Main/util/tmp.py" />
+        <option value="$PROJECT_DIR$/log/distributed_mt_mp.log" />
+        <option value="$PROJECT_DIR$/Main/improvement/slave0.py" />
+        <option value="$PROJECT_DIR$/Main/improvement/slave1.py" />
+        <option value="$PROJECT_DIR$/Main/improvement/crawling.py" />
+        <option value="$PROJECT_DIR$/log/async_single_th_proc_pool.log" />
         <option value="$PROJECT_DIR$/Main/management/commands/gocrawl.py" />
+        <option value="$PROJECT_DIR$/log/th_pool_proc_pool.log" />
       </list>
     </option>
   </component>
@@ -228,6 +221,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="UglyToy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UglyToy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UglyToy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -811,29 +818,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Main/static/main/css/auth.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/templates/addsuccess.html" />
-    <entry file="file://$PROJECT_DIR$/Main/templates/subscription.html" />
-    <entry file="file://$PROJECT_DIR$/Main/templates/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/templates/message.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/templates/addchnl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1028,16 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/improvement/crawling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/util/tmp1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -1070,10 +1044,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/distributed_mt_mp.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/distributed_async_mp.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/improvement/slave1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main/improvement/slave0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
+        <state relative-caret-position="390">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -1082,38 +1082,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/improvement/master.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="-780">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/improvement/slave1.py">
+    <entry file="file://$PROJECT_DIR$/Main/improvement/dead_lock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1117">
-          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1170">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/improvement/dead_lock.py">
+    <entry file="file://$PROJECT_DIR$/log/async_single_th_proc_pool.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="455">
+          <caret line="157" column="45" selection-start-line="157" selection-start-column="45" selection-end-line="157" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/th_pool_proc_pool.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3653">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/distributed.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4758">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/improvement/crawling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/management/commands/gocrawl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="117">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

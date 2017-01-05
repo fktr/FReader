@@ -1,4 +1,3 @@
-import multiprocessing
 import threading
 from queue import Queue
 
@@ -7,8 +6,6 @@ from django.core.management import BaseCommand
 
 from Main.improvement import timer
 from Main.improvement.crawling import Crawler, Parser
-from multiprocessing.managers import BaseManager
-
 from Main.improvement.master import Master
 from Main.improvement import slave0,slave1
 
@@ -19,11 +16,11 @@ class Command(BaseCommand):
         q = Queue()
         crawler = Crawler(q,10)
         parser = Parser(q, 10)
-        #crawler.multi_threaded_crawling()
-        crawler.async_coroutine_crawling()
+        crawler.multi_threaded_crawling()
+        #crawler.async_coroutine_crawling()
         parser.multi_process_parsing()
-        crawler.async_wait_for_end()
-        #crawler.wait_for_end()
+        #crawler.async_wait_for_end()
+        crawler.wait_for_end()
         parser.wait_for_end()
 
     def multi_queue_crawl(self):
@@ -46,6 +43,6 @@ class Command(BaseCommand):
         good_timer=timer.PeriodTimer(3600)
         good_timer.start()
         while True:
-            #self.start_crawl()
-            self.multi_queue_crawl()
+            self.start_crawl()
+            #self.multi_queue_crawl()
             good_timer.wait_for_tick()

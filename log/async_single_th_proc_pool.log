@@ -1,0 +1,158 @@
+Async Crawling begin...
+Put task http://www.geekpark.net/feed into the queue ...
+Put task http://www.nhzy.org/feed into the queue ...
+Put task https://bbs.sjtu.edu.cn/bbsrss?board=SJTUNews into the queue ...
+Put task http://www.u148.net/rss/ into the queue ...
+Put task http://www.alibuybuy.com/feed into the queue ...
+Put task https://www.zhihu.com/rss into the queue ...
+Put task http://www.matrix67.com/blog/feed into the queue ...
+Parsing begin...
+Get task http://www.geekpark.net/feed from the queue ...
+Get task http://www.nhzy.org/feed from the queue ...
+Get task https://bbs.sjtu.edu.cn/bbsrss?board=SJTUNews from the queue ...
+Get task http://www.u148.net/rss/ from the queue ...
+Get task http://www.alibuybuy.com/feed from the queue ...
+Get task https://www.zhihu.com/rss from the queue ...
+Get task http://www.matrix67.com/blog/feed from the queue ...
+Crawling Channel SJTUNews
+Find Item 校高性能计算中心招收研究生
+Find Item 求购  空调
+Find Item 世界一流大学的研究生信息管理系统怎么老是挂啊
+Find Item 今年的就业报告，渣滓化的道路
+Find Item 阿加莎的话剧，低价票不多了，先到先得
+Find Item 关于评教的建议：
+Find Item 有偿寻英语口语陪练
+Find Item 有了解南洋建筑学院的么，谢谢！
+Find Item #我有平台，你有脑洞吗！#携程酒店APP产品设计
+Find Item [公告] 恢复subaguang在SJTUNews板的POST权
+Find Item 徐汇交大有室内羽毛球场吗？
+Find Item 双蛋节的音乐剧，话剧，看看有你喜欢的吗？
+Find Item 祝考研的同学考试顺利~
+Find Item 【校园卡招领】李杨同学
+Find Item 求自然基金指南2017版(转载)
+Find Item 关于教学评教(转载)
+Find Item 阿加莎・克里斯蒂《原告证人》《无人生还》上映
+Find Item 华联后面那个二手书店去哪了？
+Find Item 莫非我交有2个教育部重点实验室没通过评估？
+Find Item 求问硕士延期到六月份答辩什么时候可以拿学位证(转载)
+Crawling Channel Nhzy资讯
+Find Item 骑马不成，她开始骑牛！
+Find Item 圣诞老人真的存在？！
+Find Item 有了它，工人们再也不用担心手被割伤了！
+Find Item 瑞士的这款巧克力，让你的经期过的轻轻松松
+Find Item 狗狗爱好者有福了 曼谷的哈士奇等着你们！
+Find Item 卖家承诺 20分钟吃完拉面可获得$438大红包
+Find Item 她准备了如山的圣诞礼物，而被指责溺爱孩子
+Find Item 宾夕法尼亚州立大学的小松鼠
+Find Item 日本人的大招：让你重回母亲子宫！
+Find Item 为了炫耀自己的财富，他把钱穿在身上！
+Crawling Channel 只为商业新变量 | 极客公园
+Find Item 这家 100 多岁的公司，却想用这 20 项技术改变你的未来
+Find Item 新围棋启蒙者 AlphaGo，和它打开的新世界大门……
+Find Item 世界上最薄的充电头，只有 5 毫米厚，可以轻松塞进钱包
+Find Item 虽然没有头盔新品，但两款 Vive 配件可以让你在虚拟世界「自由飞翔」
+Find Item 滴滴又双叒传裁员过半了，可为什么总是滴滴？
+Find Item Spark，实用和颜值齐飞的邮箱客户端
+Find Item Note 7 不给力，并没有影响三星在其他领域「放大招」
+Find Item AlphaGo 网战一局未输，豪取 60 胜；HTC Vive 发布两款新附件 | 极客早知道 2017 年 1 月 5 日
+Find Item 全键盘、空格键指纹识别，「TCL 味」的黑莓依旧特立独行
+Find Item 新品速递 | 智能遥控器 Sevenhugs
+Crawling Channel 互联网的那点事
+Find Item 营销人员应当了解妈妈们的特征：乐观、未来主义者、利他主义者
+Find Item 7亿网民大数据成搭脉中国经济新渠道
+Find Item 大数据揭示400万华裔在美生存状况
+Find Item 从五个维度看透FinTech产业16个领域和1885个创业公司
+Find Item 2016年星巴克忠实粉丝人群洞察（附下载）
+Find Item 计算机已经创造出自己的秘密语言
+Find Item Ipsos：网络视频广告对亚太地区富裕人口的营销效果更好
+Find Item 人口质量决胜未来——地产大数据之人口结构篇
+Find Item 全球手游产业规模将达368.7亿美元 应用内支付成为营收利器
+Find Item 花旗银行：随着自动化的发展77%的中国劳动人口将被取代
+Crawling Channel Matrix67: The Aha Moments
+Find Item Lissajous 曲线的动画演示
+Find Item 位换记号、排列测试与状态图：杂耍中的数学
+Find Item UyHiP 趣题：几个特殊的强正则图
+Find Item 趣题：为什么偏偏是 6 格？
+Find Item IMO2016 趣题：Geoff 的青蛙
+Find Item 捡石子游戏、 Wythoff 数表和一切的 Fibonacci 数列
+Find Item 如果把 3 · n + 1 问题改为 3x · n + 1 问题
+Find Item 趣题：两个方阵是怎样互相穿过对方的？
+Find Item 26 个比较概率大小的问题
+Find Item 趣题：如果每次只增加一个区域的话
+Crawling Channel 有意思吧
+Find Item 你是因为什么，一直这样努力？
+Find Item 知道了这些，妈妈再也不用担心我被碰瓷的套路了！
+Find Item 在咖啡厅看到女生徒手劈砖，心情有点懵……
+Find Item 希望你的一生，也拥有这些“小确幸”
+Find Item 要不然，还是把悲伤留给自己吧｜再见，我的2016
+Find Item 十年，从你的全世界路过
+Find Item 有意思吗：你老公是怎么把你追到手的？
+Find Item 现在的12岁小学生，谈起恋爱厉害了哟……
+Find Item 那个嫁了穷人的女同学
+Find Item 别让一直喜欢你的人，难过太久
+Find Item 要不，我给你天天做饭，你跟我回家过年？
+Find Item 导演大人，我有一句「妈的智障」不知当讲不当讲
+Find Item 你什么都嫌贵，最后只有你便宜
+Find Item 蔡依林锦荣分手：女强男弱的爱情，注定死于门当户对
+Find Item 从一个骄阳到另外一个骄阳
+Crawling Channel 知乎每日精选
+Find Item NBA单打流年史——2007-2010
+Find Item 「工作的归工作，生活的归生活」原则能减少焦虑吗，这是不是一种空想？
+Find Item 应如何解释西方经济学中「人的消费需要 (needs/wants) 无限大」这一概念？
+Find Item PS是怎么战胜任天堂的？
+Find Item 是什么问题导致 10 纳米制程芯片良品率过低？会对下游产品有何影响？
+Find Item 从Prius vs 秦看终极新能源车之道
+Find Item 家长如何与孩子一起阅读绘本？
+Find Item 德克-诺维茨基：没朋友
+Find Item 目前国内无人驾驶达到什么水准？美国到底领先中国多少？国内又有哪些值得关注的无人驾驶技术呢？
+Find Item 一次只做一件事对我来说是不够的 | 斜杠时代：我们为什么同时发展几种职业？
+Find Item 如何评价 FF 刚亮相的首款量产电动车 FF 91？
+Find Item 2017 年外管局对于个人购汇用途的监管对于美股投资会带来怎样的影响？
+Find Item 如何看待在弈城围棋网和腾讯野狐围棋上出现的两大神秘 AI 高手 Master（P）和 刑天（P）？
+Find Item 2017中国电竞悲观预测
+Find Item 如何评价 FF 刚亮相的首款量产电动车 FF 91？
+Find Item 《职人介绍所》第二季回归：不好意思，让大家久等了
+Find Item 为什么有阿里巴巴的存在，找钢网仍能做起来？
+Find Item 如何做一次有效的绩效考核面谈？
+Find Item AirPods 的实际使用体验如何？
+Find Item 火车票涨价是否能解决春运问题？
+Find Item 新的一年，让我们从这个光膀子撸串的大叔说起……
+Find Item 人类大脑中真得存在语言区吗？
+Find Item 基拉伊：扬名欧洲杯后，这个“秋裤大叔”退役了
+Find Item 货车帮的商业模式是怎样的？物流行业和互联网可以怎样结合？
+Find Item 用 C 语言画科赫雪花
+Find Item 汽车发动机的两个参数马力和扭矩，哪个更能体现动力性？
+Find Item Amazon Mechanical Turk 前景如何？
+Find Item 复活的情怀 I
+Find Item 小心！学心理的人会惦记着你一辈子|心理学史上重要的追踪研究盘点
+Find Item 如何看待在弈城围棋网和腾讯野狐围棋上出现的两大神秘 AI 高手 Master（P）和 刑天（P）？
+Find Item 数据怪图：暂停会伤害进攻|单打狂魔已退场|公牛进攻大跳水
+Find Item 奥迪A6L一共几代，历年来的变化都是什么？
+Find Item CES 2017 会有哪些值得关注的新技术和新产品？
+Find Item 如何在面试的无领导小组讨论环节中脱颖而出？
+Find Item 目前国内无人驾驶达到什么水准？美国到底领先中国多少？国内又有哪些值得关注的无人驾驶技术呢？
+Find Item 追寻之路———纪念Vera Rubin
+Find Item 球事观察：梅西为何被评为最佳组织中场？
+Find Item 2016 年汽车行业有哪些大的转变？
+Find Item 手机电池的发展遇到了什么瓶颈？现在出现了比较靠谱的新技术吗？
+Find Item 【铁道知识ABC】-10车钩
+Find Item 如何看待在弈城围棋网和腾讯野狐围棋上出现的两大神秘 AI 高手 Master（P）和 刑天（P）？
+Find Item 如何评价微软在数据中心使用FPGA代替传统CPU的做法？
+Find Item 阿里巴巴直播内容风险防控中的AI力量
+Find Item 感觉目前从事职业的可复用性较差，需要考虑换个工作吗？
+Find Item 大数据在银行传统信贷全流程中，有哪些关键作用？
+Find Item 有什么关于北京地铁、公交相关的冷知识？
+Find Item 快降级了！莱斯特城这5大病症能不能治好？
+Find Item 入职一年，感到很难融入同事圈子，要考虑换个工作环境吗？
+Find Item 中田英寿：18年前，他曾是唯一入围欧洲金球奖的亚洲人
+Find Item 自由意志（free will）是否存在？为什么？
+Find Item 人工智能可以作曲吗？
+Find Item 耐药菌的那些事
+Find Item 消息推送（push）对app运营的影响有哪些？
+Find Item 如何给孩子挑选合适的绘本？
+Find Item 纯电动技术展望及新能源车路线之争
+Find Item 怎样精读一本绘本？
+Find Item 「繁花」开普植物区——烈火熊熊的涅槃花园
+Find Item 如何在水下憋气超过 3 分钟？
+Find Item 轮胎鼓包是什么原因造成的？该如何避免？
+Find Item 对于进入职场 1～2 年的人来说，做「自己擅长的事」是一种好的选择吗？

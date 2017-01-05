@@ -24,12 +24,14 @@ class Crawler:
         page_coding = re.search(coding_pattern, page.text)
         page.encoding = page_coding
         self.queue.put((channel,page.text))
+        print('Put task %s into the queue ...' %channel)
 
     async def async_crawl(self,channel):
         headers = {'User-Agent': 'user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36'}
         async with aiohttp.ClientSession() as session:
             async with session.get(url=channel.link,headers=headers) as resp:
                 self.queue.put((channel,await resp.text()))
+                print('Put task %s into the queue ...' % channel)
 
     def multi_threaded_crawling(self):
         print("Crawling begin...")
@@ -64,6 +66,7 @@ class Parser:
         while True:
             try:
                 channel,page_cont = self.queue.get(timeout=600)
+                print('Get task %s from the queue ...'%channel)
                 self.pool.apply_async(parse_page,(channel,page_cont))
             except:
                 break
