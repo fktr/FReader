@@ -1,18 +1,21 @@
+import asyncio
 import multiprocessing
 import re
+import aiohttp
 import feedparser
-import threading
 import requests
+import threadpool
 from Main.models import Channel, Item
 from Main.util.easy import  pubdate_to_datetime, beautify_data
 
-class Crawler(threading.Thread):
+class Crawler:
 
-    def __init__(self,out_q):
-        super().__init__()
+    def __init__(self,out_q,t_num):
         self.queue=out_q
+        self.thread_num=t_num
         self.channels=Channel.objects.all().distinct()
-        self.qlist=[]
+        self.pool=threadpool.ThreadPool(self.thread_num)
+        self.loop=asyncio.get_event_loop()
 
     def crawl_page(self,channel):
         headers = {'User-Agent': 'user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36'}
@@ -22,28 +25,54 @@ class Crawler(threading.Thread):
         page.encoding = page_coding
         self.queue.put((channel,page.text))
 
-    def run(self):
+    async def async_crawl(self,channel):
+        headers = {'User-Agent': 'user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36'}
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url=channel.link,headers=headers) as resp:
+                self.queue.put((channel,await resp.text()))
+
+    def multi_threaded_crawling(self):
         print("Crawling begin...")
-        for channel in self.channels:
-            thread=threading.Thread(target=self.crawl_page,args=(channel,))
-            thread.start()
-            self.qlist.append(thread)
-        for thread in self.qlist:
-            thread.join()
+        tasks=threadpool.makeRequests(self.crawl_page,self.channels)
+        for task in tasks:
+            self.pool.putRequest(task)
+
+    def async_coroutine_crawling(self):
+        print('Async Crawling begin...')
+        tasks=[self.async_crawl(channel) for channel in self.channels]
+        self.loop.run_until_complete(asyncio.wait(tasks))
+
+    def wait_for_end(self):
+        self.pool.wait()
+        print("Crawling end...")
+
+    def async_wait_for_end(self):
+        self.loop.close()
+        print('Async Crawling end...')
+
 
 class Parser:
 
-    def __init__(self,in_q):
+    def __init__(self,in_q,p_num):
         self.queue=in_q
+        self.process_num=p_num
+        self.pool = multiprocessing.Pool(self.process_num)
 
     def multi_process_parsing(self):
-        print("Parsing begin")
-        pool=multiprocessing.Pool(10)
-        while not self.queue.empty():
-            channel,page_cont = self.queue.get()
-            pool.apply_async(parse_page,(channel,page_cont))
-        pool.close()
-        pool.join()
+        print("Parsing begin...")
+
+        while True:
+            try:
+                channel,page_cont = self.queue.get(timeout=600)
+                self.pool.apply_async(parse_page,(channel,page_cont))
+            except:
+                break
+
+    def wait_for_end(self):
+        self.pool.close()
+        self.pool.join()
+        print("Parsing end...")
+
 
 def parse_page(channel, page_cont):
     parsed_cont = feedparser.parse(page_cont)

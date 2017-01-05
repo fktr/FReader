@@ -7,7 +7,6 @@ from Main.models import Channel
 
 rss_group=[
     'https://www.zhihu.com/rss',
-    'http://today.hit.edu.cn/rss.xml',
     'http://www.nhzy.org/feed',
     'http://www.matrix67.com/blog/feed',
     'https://bbs.sjtu.edu.cn/bbsrss?board=SJTUNews',
